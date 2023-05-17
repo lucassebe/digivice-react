@@ -5,8 +5,6 @@ import Indeximg from './Components/Img';
 import Input from './Components/Input';
 import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
-import fetchDigimon from './Data/service';
-console.log(fetchDigimon)
 
 
 export const App = () => {
