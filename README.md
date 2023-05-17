@@ -1,2 +1,2 @@
 # Digicards
-Recreate digive-proect on react framework
+Recreate digivice-project on React framework
