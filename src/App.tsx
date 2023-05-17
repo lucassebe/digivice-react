@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Btn from './Components/Button'
+import Indeximg from './Components/Img';
+import Input from './Components/Input';
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
+import fetchDigimon from './Data/service';
+console.log(fetchDigimon)
 
-function App() {
+
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container maxWidth="sm">
+        <Card id="card">
+          <Indeximg />
+          <Input />
+          <Btn />
+        </Card>
+      </Container>
     </div>
   );
 }
