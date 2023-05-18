@@ -4,6 +4,7 @@ import { Search } from "@mui/icons-material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import {red } from '@mui/material/colors';
 
+
 const theme = createTheme({
   palette: {
     secondary: red
@@ -11,8 +12,7 @@ const theme = createTheme({
 });
 
 
-class Btn extends React.Component {
-    render() {
+export default function Btn ({funcSearch}) {
         return (
             <ThemeProvider theme={theme}>
             <div id="button">
@@ -20,13 +20,10 @@ class Btn extends React.Component {
                     color="secondary"
                     variant="outlined"
                     startIcon={<Search />}
-                    onClick={() => {
-                    }}
+                    onClick={funcSearch}
                 >
                     Search</Button>
             </div>
             </ThemeProvider>
-        )
+        );
     }
-}
-export default Btn;

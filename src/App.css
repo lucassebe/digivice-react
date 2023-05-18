@@ -10,7 +10,7 @@ img {
   margin-top: 50px;
   width: 350px;
   height: 350px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 img:hover{
   transition: 0.3s;
@@ -20,12 +20,18 @@ img:hover{
 #input {
   margin-top: 10px;
   margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
   /* margin-left: 130px; */
 }
 
 #button {
+  display: flex;
   background-color: white;
+  margin-top: 10px;
   margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
   /* margin-left: 180px; */
 }
 
@@ -36,4 +42,12 @@ img:hover{
   margin-top: 40px;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#nome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
+  left: 500px;
+  color: #ff1744;
 }
