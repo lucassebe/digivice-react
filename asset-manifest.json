@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/digivice-react/static/css/main.e4fd20b7.css",
-    "main.js": "/digivice-react/static/js/main.4df31609.js",
+    "main.js": "/digivice-react/static/js/main.fed86210.js",
+    "static/media/jpg": "/digivice-react/static/media/ff49c45e27b705edde662cb862936adc.7f1ba252ce3f773be67d.jpg",
     "index.html": "/digivice-react/index.html",
     "main.e4fd20b7.css.map": "/digivice-react/static/css/main.e4fd20b7.css.map",
-    "main.4df31609.js.map": "/digivice-react/static/js/main.4df31609.js.map"
+    "main.fed86210.js.map": "/digivice-react/static/js/main.fed86210.js.map"
   },
   "entrypoints": [
     "static/css/main.e4fd20b7.css",
-    "static/js/main.4df31609.js"
+    "static/js/main.fed86210.js"
   ]
 }
