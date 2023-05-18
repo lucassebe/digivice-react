@@ -6,6 +6,7 @@ import api from "../../services/api";
 import Btn from "../Button";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import digimonImg from "../../images/ff49c45e27b705edde662cb862936adc.jpg"
 
 const theme = createTheme({
   palette: {
@@ -17,7 +18,7 @@ export default function Input() {
   const [digimon, setDigimon] = useState("");
   const [value, setValue] = useState("");
   const [imageUrl, setImageUrl] = useState(
-    "/images/ff49c45e27b705edde662cb862936adc.jpg"
+    digimonImg
   );
   const [digimonid, setId] = useState("");
   useEffect(() => {
